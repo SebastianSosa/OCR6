@@ -7,6 +7,11 @@ Voici [les données](https://www.kaggle.com/c/home-credit-default-risk/data) don
 L’entreprise souhaite mettre en œuvre un outil de “scoring crédit” pour calculer la probabilité qu’un client rembourse son crédit, puis classifie la demande en crédit accordé ou refusé. Elle souhaite donc développer un algorithme de classification en s’appuyant sur des sources de données variées (données comportementales, données provenant d'autres institutions financières, etc.).
 
 1. Construire un modèle de scoring qui donnera une prédiction sur la probabilité de faillite d'un client de façon automatique.
+
+  - **[Fonction de perte et score personalisé](https://github.com/SebastianSosa/OCR6/blob/main/Sosa_Sebastian_3_note_m%C3%A9thodologique_042023.docx)**:
+    ![image](https://github.com/SebastianSosa/OCR6/assets/22368172/84215064-ac92-4c33-8cb2-4d7194fb5d81)
+    ![image](https://github.com/SebastianSosa/OCR6/assets/22368172/b15439ba-a8e5-455a-b3de-f59a0cfb4697)
+    
    - **Création d'une classe acceptant tous modèles XGBoost (regression, classification) avec calibration des probabilitées:**
    ![image](https://github.com/SebastianSosa/OCR6/assets/22368172/9e0fa1f8-37db-4885-8ef2-97947bba936b)
 
@@ -16,10 +21,6 @@ L’entreprise souhaite mettre en œuvre un outil de “scoring crédit” pour 
   - **Approche MLOPS avec fonction acceptant la classe et la fonction crée:**
     ![image](https://github.com/SebastianSosa/OCR6/assets/22368172/3d26f700-15e6-485f-9f7e-63af9f403381)
     ![image](https://github.com/SebastianSosa/OCR6/assets/22368172/4ad6dd05-99ca-414b-b069-d87fdf22131f)
-
-  - **Fonction de perte et score personalisé**:
-    ![image](https://github.com/SebastianSosa/OCR6/assets/22368172/84215064-ac92-4c33-8cb2-4d7194fb5d81)
-    ![image](https://github.com/SebastianSosa/OCR6/assets/22368172/b15439ba-a8e5-455a-b3de-f59a0cfb4697)
 
 
 
